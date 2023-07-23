@@ -1,0 +1,18 @@
+{
+    "name": "Злодій",
+    "description": "Ти підступний і швидкий. Завжди готові вкрасти у тих, хто вам не подобається.",
+    "powers": [
+        "rpg_origins:speedy",
+        "rpg_origins:stealthy",
+        "origins:no_shield",
+        "rpg_origins:better_unnoticed",
+        "rpg_origins:uneasy_alliance",
+        "rpg_origins:thefty",
+        "rpg_origins:stealthy_damage",
+        "rpg_origins:weak"
+    ],
+    "icon": {
+        "item": "minecraft:iron_sword"
+    },
+    "impact": 3
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Краще лікування",
+    "description": "Ви можете ефективніше лікувати своїх друзів і союзних істот. додано 3 очка до базового значення магії зцілення",
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "spell_power:healing",
+        "operation": "multiply_base",
+        "value": 3
+    },
+    "update_health": false
+}

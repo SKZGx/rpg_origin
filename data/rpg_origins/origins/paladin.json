@@ -1,0 +1,21 @@
+{
+    "name": "Паладін",
+    "description": "Ти святий воїн, готовий захищати слабких та виконувати святі завдання.",
+    "powers": [
+        "rpg_origins:heal_pool",
+        "rpg_origins:pure",
+        "rpg_origins:pure_color",
+        "rpg_origins:pure_shake",
+        "rpg_origins:one_with_the_world",
+        "rpg_origins:healing_master",
+        "rpg_origins:better_heal",
+        "origins:no_shield",
+        "rpg_origins:durable",
+        "rpg_origins:prepared",
+        "rpg_origins:trained"
+    ],
+    "icon": {
+        "item": "minecraft:golden_sword"
+    },
+    "impact": 1
+}

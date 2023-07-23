@@ -1,0 +1,18 @@
+{
+    "display": {
+      "title": "Ви завантажили датапак",
+      "description": "ШОК",
+      "icon": {
+        "item": "origins:orb_of_origin"
+      },
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "rpg_origins:root",
+    "criteria": {
+      "trigger": {
+        "trigger": "minecraft:tick"
+      }
+    }
+  }
+  

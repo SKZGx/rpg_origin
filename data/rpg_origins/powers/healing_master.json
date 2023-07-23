@@ -1,0 +1,17 @@
+{
+    "name": "Екіпірування",
+    "description": "Жезл і руни для лікування себе і дружніх сутностей.",
+    "type": "origins:starting_equipment",
+    "stack": {
+        "item": "paladins:holy_wand",
+        "amount": 1,
+        "slot": 0
+    },
+    "stacks": [
+        {
+            "item": "runes:healing_stone",
+            "amount": 64,
+            "slot": 1
+        }
+    ]
+}

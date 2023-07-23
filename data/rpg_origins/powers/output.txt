@@ -1,0 +1,868 @@
+C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\better_heal.json  
+{
+    "name": "–ö—Ä–∞—â–µ –ª—ñ–∫—É–≤–∞–Ω–Ω—è",
+    "description": "–í–∏ –º–æ–∂–µ—Ç–µ –µ—Ñ–µ–∫—Ç–∏–≤–Ω—ñ—à–µ –ª—ñ–∫—É–≤–∞—Ç–∏ —Å–≤–æ—ó—Ö –¥—Ä—É–∑—ñ–≤ —ñ —Å–æ—é–∑–Ω–∏—Ö —ñ—Å—Ç–æ—Ç. –¥–æ–¥–∞–Ω–æ 3 –æ—á–∫–∞ –¥–æ –±–∞–∑–æ–≤–æ–≥–æ –∑–Ω–∞—á–µ–Ω–Ω—è –º–∞–≥—ñ—ó –∑—Ü—ñ–ª–µ–Ω–Ω—è",
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "spell_power:healing",
+        "operation": "multiply_base",
+        "value": 3
+    },
+    "update_health": false
+}C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\better_unnoticed.json  
+{
+    "name": "–ö—Ä–∞—â–µ –Ω–µ–ø–æ–º—ñ—Ç–Ω–æ",
+    "description": "–í–∏ –Ω–µ —Ö–æ—á–µ—Ç–µ, —â–æ–± –≤–∞—Å –±–∞—á–∏–ª–∏, –æ—Å–∫—ñ–ª—å–∫–∏ –∂–µ—Ä—Ç–≤—É—î—Ç–µ –∑–¥–æ—Ä–æ–≤'—è–º –∑–∞—Ä–∞–¥–∏ —à–≤–∏–¥–∫–æ—Å—Ç—ñ. –£ –≤–∞—Å –Ω–∞ 2 —Å–µ—Ä—Ü—è –º–µ–Ω—à–µ.",
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.max_health",
+        "operation": "multiply_total",
+        "value": -0.2
+    },
+    "update_health": true
+}C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\brewer_jumpboost.json  
+{
+    "name": "Brewer",
+    "description": "You are experienced in potion making, so speed, regeneration, jump boost, and strength last longer.",
+    "type": "origins:modify_status_effect_duration",
+    "status_effect": "minecraft:jump_boost",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 0.5
+    }
+}C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\brewer_regeneration.json  
+{
+    "name": "Brewer",
+    "description": "You are experienced in potion making, so speed, regeneration, jump boost, and strength last 1.5 times longer.",
+    "hidden": true,
+    "type": "origins:modify_status_effect_duration",
+    "status_effect": "minecraft:regeneration",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 0.5
+    }
+}C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\brewer_speed.json  
+{
+    "name": "Brewer",
+    "description": "You are experienced in potion making, so speed, regeneration, jump boost, and strength last 1.5 times longer.",
+    "hidden": true,
+    "type": "origins:modify_status_effect_duration",
+    "status_effect": "minecraft:speed",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 0.5
+    }
+}C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\brewer_strength.json  
+{
+    "name": "Brewer",
+    "description": "You are experienced in potion making, so speed, regeneration, jump boost, and strength last 1.5 times longer.",
+    "hidden": true,
+    "type": "origins:modify_status_effect_duration",
+    "status_effect": "minecraft:strength",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 0.5
+    }
+}C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\charismatic.json  
+{
+    "hidden": true,
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:power_active",
+                "power": "rpg_origins:charismatic_toggle"
+            }
+        ]
+    },
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "effect give @a[distance=1..20] speed 1 0 true"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "effect give @a[distance=1..20] regeneration 1 0 true"
+            }
+        ]
+    }
+}C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\charismatic_toggle.json  
+{
+    "name": "Charismatic",
+    "description": "You're great with people, so much infact, that they heal more and move faster when around you.",
+    "type": "origins:toggle",
+    "active_by_default": true,
+    "key": {
+        "key": "key.origins.primary_active"
+    },
+    "retain_state": true
+}C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\decoy.json  
+{
+    "name": "Decoy",
+    "description": "Many people have used you as their decoy, so you've adapted to run faster whenever you're weak.",
+    "condition": {
+        "type": "origins:health",
+        "comparison": "<=",
+        "compare_to": 5
+    },
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 1,
+    "max_stacks": 1,
+    "duration_per_stack": 10,
+    "tick_rate": 1,
+    "effect": {
+        "effect": "speed",
+        "duration": 10,
+        "amplifier": 0,
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": false
+    }
+}C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\durable.json  
+{
+    "name": "Durable",
+    "description": "You are more durable than others, and you always take less damage.",
+    "loading_priority": 0,
+    "type": "origins:modify_damage_taken",
+    "modifier": {
+        "operation": "addition",
+        "value": -1
+    }
+}C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\fastcure.json  
+{
+    "name": "Fast Cure",
+    "description": "Your immune to poison, weakness, and slowness.",
+    "type": "origins:effect_immunity",
+    "effects": [
+        "minecraft:poison",
+        "minecraft:weakness",
+        "minecraft:slowness"
+    ]
+}C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\fireball.json  
+{
+    "name": "Fireball",
+    "description": "You can shoot a fireball in the direction your facing, intersting how spells can do that.",
+    "type": "origins:fire_projectile",
+    "entity_type": "minecraft:fireball",
+    "cooldown": 1500,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+        "bar_index": 7
+    },
+    "count": 1,
+    "interval": 0,
+    "start_delay": 0,
+    "speed": 1,
+    "divergence": 1,
+    "sound": "minecraft:entity.blaze.shoot",
+    "tag": "{ExplosionPower:2b}"
+}C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\forgivable.json  
+{
+    "name": "Forgivable",
+    "description": "Pillagers are worried with your alliance with villagers, you can no longer start raids.",
+    "type": "origins:effect_immunity",
+    "effect": "minecraft:bad_omen"
+}C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\healing_master.json  
+{
+    "name": "–ï–∫—ñ–ø—ñ—Ä—É–≤–∞–Ω–Ω—è",
+    "description": "–ñ–µ–∑–ª —ñ —Ä—É–Ω–∏ –¥–ª—è –ª—ñ–∫—É–≤–∞–Ω–Ω—è —Å–µ–±–µ —ñ –¥—Ä—É–∂–Ω—ñ—Ö —Å—É—Ç–Ω–æ—Å—Ç–µ–π.",
+    "type": "origins:starting_equipment",
+    "stack": {
+        "item": "paladins:holy_wand",
+        "amount": 1,
+        "slot": 0
+    },
+    "stacks": [
+        {
+            "item": "runes:healing_stone",
+            "amount": 64,
+            "slot": 1
+        }
+    ]
+}C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\heal_pool.json  
+{
+    "name": "Heal Pool",
+    "description": "Summon a pool of healing on command that effects every mob.",
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:spawn_effect_cloud",
+        "radius": 5,
+        "radius_on_use": -0.5,
+        "wait_time": 0,
+        "effect": {
+            "effect": "minecraft:regeneration",
+            "duration": 20,
+            "amplifier": 2,
+            "show_particles": true,
+            "show_icon": true
+        }
+    },
+    "cooldown": 700,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+        "bar_index": 9
+    }
+}C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\inexperienced.json  
+{
+    "name": "Inexperienced",
+    "description": "Due to never using a sword, you can barley use anything that isn't a projectile.",
+    "type": "origins:modify_damage_dealt",
+    "damage_condition": {
+        "inverted": true,
+        "type": "origins:projectile",
+        "projectile": "minecraft:arrow"
+    },
+    "modifier": {
+        "operation": "multiply_base",
+        "value": -0.5
+    }
+}C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\marksman.json  
+{
+    "name": "Marksman",
+    "description": "You're a trained professional in bows and crossbows, and deal significantly more damage with them.",
+    "type": "origins:modify_projectile_damage",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 1.25
+    }
+}C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\musical_past.json  
+{
+    "name": "Musical Past",
+    "description": "You've played goat horns in the past, and you still have one from a while ago.",
+    "type": "origins:starting_equipment",
+    "stack": {
+        "item": "minecraft:goat_horn",
+        "amount": 1,
+        "tag": "{instrument: \"minecraft:ponder_goat_horn\"}",
+        "slot": 0
+    }
+}C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\not_the_smartest.json  
+{
+    "name": "Not the Smartest",
+    "description": "You're into music, and that's it. You always gain less XP points",
+    "type": "origins:modify_xp_gain",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": -0.35
+    }
+}C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\no_time_to_rest.json  
+{
+    "name": "No Time To Rest",
+    "description": "You can only heal naturally while you're sprinting.",
+    "condition": {
+        "inverted": true,
+        "type": "origins:sprinting"
+    },
+    "type": "origins:disable_regen"
+}C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\one_with_the_world.json  
+{
+    "name": "One With the World",
+    "description": "Whatever is going on in the world will affect you. Whenever you're exposed to the sun you'll slowly revert the effects of insomnia.",
+    "condition": {
+        "type": "origins:exposed_to_sun"
+    },
+    "type": "origins:modify_insomnia_ticks",
+    "modifier": {
+        "operation": "add_base_early",
+        "value": -2
+    }
+}C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\prepared.json  
+{
+    "name": "Prepared",
+    "description": "You're always prepared, so you start your journy with a shield.",
+    "type": "origins:starting_equipment",
+    "stack": {
+        "item": "minecraft:shield",
+        "slot": 40
+    }
+}C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\pure.json  
+{
+    "name": "Pure",
+    "description": "You're so pure, you can't bare the nether. It corrupts your body so you can't naturally heal.",
+    "condition": {
+        "type": "origins:dimension",
+        "dimension": "minecraft:the_nether"
+    },
+    "type": "origins:disable_regen"
+}C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\pure_color.json  
+{
+    "hidden": true,
+    "condition": {
+        "type": "origins:dimension",
+        "dimension": "minecraft:the_nether"
+    },
+    "type": "origins:model_color",
+    "red": 0.7,
+    "green": 0.5,
+    "blue": 0.2
+}C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\pure_shake.json  
+{
+    "hidden": true,
+    "condition": {
+        "type": "origins:dimension",
+        "dimension": "minecraft:the_nether"
+    },
+    "type": "origins:shaking"
+}C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\quiver.json  
+{
+    "name": "Quiver",
+    "description": "You always have a quiver to make sure you have back-up arrows. You can put anything in it, but if you die, everything except arrows will be left.",
+    "type": "origins:inventory",
+    "title": "Quiver",
+    "container_type": "hopper",
+    "drop_on_death": true,
+    "drop_on_death_filter": {
+        "inverted": true,
+        "type": "origins:ingredient",
+        "ingredient": [
+            {
+                "item": "minecraft:arrow"
+            },
+            {
+                "item": "minecraft:spectral_arrow"
+            },
+            {
+                "item": "minecraft:tipped_arrow"
+            }
+        ]
+    },
+    "recoverable": true
+}C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\resourceful.json  
+{
+    "name": "–í–∏–Ω–∞—Ö—ñ–¥–ª–∏–≤–∏–π",
+    "description": "–©–æ—Ä–∞–∑—É, –∫–æ–ª–∏ –≤–∏ –∑–Ω–∞—Ö–æ–¥–∏—Ç–µ—Å—å –±—ñ–ª—è —Å—Ç–æ–ª—É –¥–ª—è —Å—Ç—Ä—ñ–ª, –≤–∏ –º–æ–∂–µ—Ç–µ –≤–∏–≥–æ—Ç–æ–≤–∏—Ç–∏ –±—ñ–ª—å—à–µ —Å—Ç—Ä—ñ–ª.",
+    "condition": {
+        "type": "origins:block_in_radius",
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:fletching_table"
+        },
+        "radius": 3,
+        "shape": "sphere",
+        "comparison": ">=",
+        "compare_to": 1
+    },
+    "type": "origins:modify_crafting",
+    "recipe": "minecraft:arrow",
+    "result": {
+        "item": "minecraft:arrow",
+        "amount": 8
+    }
+}C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\select_targets_strong.json  
+{
+    "name": "–í–∏–±—ñ—Ä —Ü—ñ–ª–µ–π",
+    "description": "–í–∏ —Å–∏–ª—å–Ω—ñ—à—ñ –ø—Ä–æ—Ç–∏ –º–æ–±—ñ–≤ –∑ –≤–µ–ª–∏–∫–æ—é –∫—ñ–ª—å–∫—ñ—Å—Ç—é –∑–¥–æ—Ä–æ–≤'—è, –∞–ª–µ —Å–ª–∞–±—à—ñ –ø—Ä–æ—Ç–∏ –º–æ–±—ñ–≤ –∑ –º–µ–Ω—à–æ—é –∫—ñ–ª—å–∫—ñ—Å—Ç—é –∑–¥–æ—Ä–æ–≤'—è.",
+    "type": "origins:modify_damage_dealt",
+    "target_condition": {
+        "type": "origins:attribute",
+        "attribute": "generic.max_health",
+        "comparison": ">=",
+        "compare_to": 50
+    },
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 1
+    }
+}C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\select_targets_weak.json  
+{
+    "name": "Select Targets",
+    "description": "You are stronger against mobs with a great amount of health, but are weaker against mobs with lower health.",
+    "hidden": true,
+    "type": "origins:modify_damage_dealt",
+    "target_condition": {
+        "type": "origins:attribute",
+        "attribute": "generic.max_health",
+        "comparison": "<",
+        "compare_to": 15
+    },
+    "modifier": {
+        "operation": "multiply_base",
+        "value": -0.65
+    }
+}C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\speedy.json  
+{
+    "name": "Speedy",
+    "description": "You're faster than normal.",
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 1,
+    "max_stacks": 1,
+    "duration_per_stack": 100,
+    "tick_rate": 10,
+    "effect": {
+        "effect": "speed",
+        "duration": 10000,
+        "amplifier": 0,
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": false
+    }
+}C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\stealthy.json  
+{
+    "name": "Stealthy",
+    "description": "Whenever you crouch, you can't be seen, but you can't attack while you're invisible, and 3 seconds after.",
+    "condition": {
+        "type": "origins:sneaking"
+    },
+    "type": "origins:invisibility",
+    "render_armor": false,
+    "render_outline": true
+}C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\stealthy_damage.json  
+{
+    "name": "Steathy Damage",
+    "description": "The damage effect of stealthy",
+    "hidden": true,
+    "condition": {
+        "type": "origins:sneaking"
+    },
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 1,
+    "max_stacks": 1,
+    "duration_per_stack": 60,
+    "tick_rate": 10,
+    "effect": {
+        "effect": "minecraft:weakness",
+        "duration": 60,
+        "amplifier": 255,
+        "show_particles": false,
+        "show_icon": false
+    }
+}C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\stealthy_invis.json  
+{
+    "name": "Stealthy Invis",
+    "description": "The invisible effect for steathy",
+    "hidden": true,
+    "condition": {
+        "type": "origins:sneaking"
+    },
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 1,
+    "max_stacks": 1,
+    "duration_per_stack": 1,
+    "tick_rate": 10,
+    "effect": {
+        "effect": "minecraft:invisiblity",
+        "duration": 1,
+        "amplifier": 255,
+        "show_particles": false,
+        "show_icon": false
+    }
+}C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\thefty.json  
+{
+    "name": "Thefty",
+    "description": "Whenever you kill a villager (Why would you) you can steal some emeralds.",
+    "type": "origins:self_action_on_kill",
+    "target_condition": {
+        "type": "origins:entity_type",
+        "entity_type": "minecraft:villager"
+    },
+    "entity_action": {
+        "type": "origins:give",
+        "stack": {
+            "item": "minecraft:emerald",
+            "amount": 3
+        },
+        "preferred_slot": "offhand"
+    },
+    "cooldown": 2000,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+        "bar_index": 1
+    }
+}C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\trained.json  
+{
+    "name": "Trained",
+    "description": "You've trained so hard, no matter what, you deal more damage.",
+    "type": "origins:modify_damage_dealt",
+    "modifier": {
+        "operation": "multiply_base_multiplicative",
+        "value": 0.1
+    }
+}C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\uneasy_alliance.json  
+{
+    "name": "Uneasy Alliance",
+    "description": "You and the pillagers have known eachother, but not well enough for them to let you live. Whenever you kill an iron golem in a village, it'll start a raid.",
+    "type": "origins:self_action_on_kill",
+    "target_condition": {
+        "type": "origins:entity_type",
+        "entity_type": "minecraft:iron_golem"
+    },
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:bad_omen",
+            "duration": 1,
+            "amplifier": 0,
+            "show_particles": false,
+            "show_icon": false
+        }
+    },
+    "cooldown": 1
+}C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\untrained.json  
+{
+    "name": "Untrained",
+    "description": "You were never tained in combat, so you have 3 less hearts.",
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.max_health",
+        "operation": "multiply_base",
+        "value": -0.3
+    },
+    "update_health": true
+}C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\unwieldly.json  
+{
+    "name": "Unwieldly",
+    "description": "Since you're only trained in magic, all damage you deal is weaker.",
+    "type": "origins:modify_damage_dealt",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": -0.25
+    }
+}C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\villagefriendly.json  
+{
+    "name": "Village Friendly",
+    "description": "Since you're the same class as one of the villagers, you're favored by them.",
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 1,
+    "max_stacks": 1,
+    "duration_per_stack": 100,
+    "tick_rate": 1,
+    "effect": {
+        "effect": "minecraft:hero_of_the_village",
+        "duration": 100000,
+        "amplifier": 0,
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": true
+    }
+}C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\water_walk.json  
+{
+    "name": "Water Walk",
+    "description": "You've learned to harness the power of the heart of the sea, so while you hold it, you can walk on water.",
+    "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:heart_of_the_sea"
+            }
+        }
+    },
+    "type": "origins:walk_on_fluid",
+    "fluid": "minecraft:water"
+}C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\weak.json  
+{
+    "name": "Weak",
+    "description": "Your body wasn't built for strong combat, so it can't heal as fast when at low health.",
+    "type": "origins:modify_healing",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": -0.5
+    }
+}C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\horn_effects\admire.json  
+{
+    "name": "Admire",
+    "description": "Wait, you shouldn't see this! It seems like you're snooping around, I hope you find what you're looking for.",
+    "hidden": true,
+    "condition": {
+        "type": "origins:using_item",
+        "item_condition": {
+            "type": "origins:nbt",
+            "nbt": "{instrument: \"minecraft:admire_goat_horn\"}"
+        }
+    },
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:spawn_effect_cloud",
+        "radius": 10,
+        "radius_on_use": -1,
+        "wait_time": 0,
+        "effect": {
+            "effect": "minecraft:invisibility",
+            "duration": 750,
+            "amplifier": 0,
+            "show_particles": true,
+            "show_icon": true
+        }
+    },
+    "cooldown": 1750,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+        "bar_index": 3
+    },
+    "key": {
+        "key": "key.use",
+        "continuous": true
+    }
+}C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\horn_effects\call.json  
+{
+    "name": "call",
+    "description": "Wait, you shouldn't see this! It seems like you're snooping around, I hope you find what you're looking for.",
+    "hidden": true,
+    "condition": {
+        "type": "origins:using_item",
+        "item_condition": {
+            "type": "origins:nbt",
+            "nbt": "{instrument: \"minecraft:call_goat_horn\"}"
+        }
+    },
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:spawn_effect_cloud",
+        "radius": 10,
+        "radius_on_use": -1,
+        "wait_time": 0,
+        "effect": {
+            "effect": "minecraft:haste",
+            "duration": 1250,
+            "amplifier": 0,
+            "show_particles": true,
+            "show_icon": true
+        }
+    },
+    "cooldown": 1750,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+        "bar_index": 3
+    },
+    "key": {
+        "key": "key.use",
+        "continuous": true
+    }
+}C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\horn_effects\dream.json  
+{
+    "name": "Dream",
+    "description": "Wait, you shouldn't see this! It seems like you're snooping around, I hope you find what you're looking for.",
+    "hidden": true,
+    "condition": {
+        "type": "origins:using_item",
+        "item_condition": {
+            "type": "origins:nbt",
+            "nbt": "{instrument: \"minecraft:dream_goat_horn\"}"
+        }
+    },
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:spawn_effect_cloud",
+        "radius": 20,
+        "radius_on_use": -1,
+        "wait_time": 0,
+        "effect": {
+            "effect": "minecraft:night_vision",
+            "duration": 1250,
+            "amplifier": 0,
+            "show_particles": true,
+            "show_icon": true
+        }
+    },
+    "cooldown": 1750,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+        "bar_index": 7
+    },
+    "key": {
+        "key": "key.use",
+        "continuous": true
+    }
+}C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\horn_effects\feel.json  
+{
+    "name": "Feel",
+    "description": "Wait, you shouldn't see this! It seems like you're snooping around, I hope you find what you're looking for.",
+    "hidden": true,
+    "condition": {
+        "type": "origins:using_item",
+        "item_condition": {
+            "type": "origins:nbt",
+            "nbt": "{instrument: \"minecraft:feel_goat_horn\"}"
+        }
+    },
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:spawn_effect_cloud",
+        "radius": 10,
+        "radius_on_use": -1,
+        "wait_time": 0,
+        "effect": {
+            "effect": "minecraft:regeneration",
+            "duration": 1250,
+            "amplifier": 1,
+            "show_particles": true,
+            "show_icon": true
+        }
+    },
+    "cooldown": 1000,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+        "bar_index": 9
+    },
+    "key": {
+        "key": "key.use",
+        "continuous": true
+    }
+}C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\horn_effects\musical_talent.json  
+{
+    "name": "Musical Talent",
+    "description": "You're a master at music, you even figured out how to use music to help yourself and others. Whenever you play a goat horn, it can do something speical, but each tune is different.",
+    "type": "origins:simple"
+}C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\horn_effects\ponder.json  
+{
+    "name": "Ponder",
+    "description": "Wait, you shouldn't see this! It seems like you're snooping around, I hope you find what you're looking for.",
+    "hidden": true,
+    "condition": {
+        "type": "origins:using_item",
+        "item_condition": {
+            "type": "origins:nbt",
+            "nbt": "{instrument: \"minecraft:ponder_goat_horn\"}"
+        }
+    },
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:spawn_effect_cloud",
+        "radius": 10,
+        "radius_on_use": -1,
+        "wait_time": 0,
+        "effect": {
+            "effect": "minecraft:strength",
+            "duration": 500,
+            "amplifier": 0,
+            "show_particles": true,
+            "show_icon": true
+        }
+    },
+    "cooldown": 1000,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+        "bar_index": 5
+    },
+    "key": {
+        "key": "key.use",
+        "continuous": true
+    }
+}C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\horn_effects\seek.json  
+{
+    "name": "Seek",
+    "description": "Wait, you shouldn't see this! It seems like you're snooping around, I hope you find what you're looking for.",
+    "hidden": true,
+    "condition": {
+        "type": "origins:using_item",
+        "item_condition": {
+            "type": "origins:nbt",
+            "nbt": "{instrument: \"minecraft:seek_goat_horn\"}"
+        }
+    },
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:spawn_effect_cloud",
+        "radius": 10,
+        "radius_on_use": -1,
+        "wait_time": 0,
+        "effect": {
+            "effect": "minecraft:glowing",
+            "duration": 1250,
+            "amplifier": 0,
+            "show_particles": true,
+            "show_icon": true
+        }
+    },
+    "cooldown": 1000,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+        "bar_index": 0
+    },
+    "key": {
+        "key": "key.use",
+        "continuous": true
+    }
+}C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\horn_effects\sing.json  
+{
+    "name": "sing",
+    "description": "Wait, you shouldn't see this! It seems like you're snooping around, I hope you find what you're looking for.",
+    "hidden": true,
+    "condition": {
+        "type": "origins:using_item",
+        "item_condition": {
+            "type": "origins:nbt",
+            "nbt": "{instrument: \"minecraft:sing_goat_horn\"}"
+        }
+    },
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:spawn_effect_cloud",
+        "radius": 10,
+        "radius_on_use": -1,
+        "wait_time": 0,
+        "effect": {
+            "effect": "minecraft:speed",
+            "duration": 750,
+            "amplifier": 1,
+            "show_particles": true,
+            "show_icon": true
+        }
+    },
+    "cooldown": 1750,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+        "bar_index": 16
+    },
+    "key": {
+        "key": "key.use",
+        "continuous": true
+    }
+}C:\Users\EUGENE\AppData\Roaming\com.modrinth.theseus\profiles\bd5d6319-0e92-48ba-a32e-0c7910a87ab5\saves\çÆ¢®© ·¢?‚\datapacks\rpg_origin\data\rpg_origins\powers\horn_effects\yearn.json  
+{
+    "name": "Yearn",
+    "description": "Wait, you shouldn't see this! It seems like you're snooping around, I hope you find what you're looking for.",
+    "hidden": true,
+    "condition": {
+        "type": "origins:using_item",
+        "item_condition": {
+            "type": "origins:nbt",
+            "nbt": "{instrument: \"minecraft:yearn_goat_horn\"}"
+        }
+    },
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:choice",
+        "actions": [
+            {
+                "weight": 3,
+                "element": {
+                    "type": "origins:execute_command",
+                    "command": "/weather rain"
+                }
+            },
+            {
+                "weight": 1,
+                "element": {
+                    "type": "origins:execute_command",
+                    "command": "/weather thunder"
+                }
+            }
+        ]
+    },
+    "cooldown": 2500,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+        "bar_index": 16
+    },
+    "key": {
+        "key": "key.use",
+        "continuous": true
+    }
+}

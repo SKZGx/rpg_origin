@@ -1,0 +1,19 @@
+{
+    "display": {
+      "title": "Встановлені Датапаки",
+      "description": "",
+      "icon": {
+        "item": "minecraft:player_head",
+        "nbt": "{SkullOwner: 'SKZG'}"
+      },
+      "background": "minecraft:textures/block/stone.png",
+      "show_toast": false,
+      "announce_to_chat": false
+    },
+    "criteria": {
+      "trigger": {
+        "trigger": "minecraft:tick"
+      }
+    }
+  }
+  

@@ -1,0 +1,27 @@
+{
+    "name": "Клірик",
+    "description": "Мудрий цілитель, який може загоювати рани і лікувати недуги.",
+    "powers": [
+        "rpg_origins:villagefriendly",
+        "rpg_origins:untrained",
+        "rpg_origins:brewer_jumpboost",
+        "rpg_origins:brewer_speed",
+        "rpg_origins:brewer_strength",
+        "rpg_origins:brewer_regeneration",
+        "rpg_origins:heal_pool",
+        "rpg_origins:forgivable",
+        "rpg_origins:pure",
+        "rpg_origins:pure_color",
+        "rpg_origins:pure_shake",
+        "rpg_origins:one_with_the_world",
+        "rpg_origins:healing_master",
+        "rpg_origins:better_heal"
+    ],
+    "icon": {
+        "item": "minecraft:emerald"
+    },
+    "upgrades": [
+    ],
+    "order": 1,
+    "impact": 1
+}

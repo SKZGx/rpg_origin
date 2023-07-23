@@ -1,0 +1,15 @@
+{
+    "name": "Лучник",
+    "description": "Ви чудово володієте луками та арбалетами, але це має свою ціну.",
+    "powers": [
+        "rpg_origins:marksman",
+        "rpg_origins:untrained",
+        "rpg_origins:inexperienced",
+        "rpg_origins:resourceful",
+        "rpg_origins:quiver"
+    ],
+    "icon": {
+        "item": "minecraft:bow"
+    },
+    "impact": 2
+}

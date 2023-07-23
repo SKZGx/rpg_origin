@@ -1,0 +1,11 @@
+{
+    "name": "Краще непомітно",
+    "description": "Ви не хочете, щоб вас бачили, оскільки жертвуєте здоров'ям заради швидкості. У вас на 2 серця менше.",
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.max_health",
+        "operation": "multiply_total",
+        "value": -0.2
+    },
+    "update_health": true
+}

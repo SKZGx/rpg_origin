@@ -1,0 +1,15 @@
+{
+    "name": "Маг",
+    "description": "Ти маг, який завжди може знайти магію в речах.",
+    "powers": [
+        "rpg_origins:fastcure",
+        "rpg_origins:untrained",
+        "rpg_origins:fireball",
+        "rpg_origins:water_walk",
+        "rpg_origins:unwieldly"
+    ],
+    "icon": {
+        "item": "minecraft:enchanted_book"
+    },
+    "impact": 2
+}

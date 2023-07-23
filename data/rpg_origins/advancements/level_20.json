@@ -1,0 +1,20 @@
+{
+    "display": {
+      "title": "Вітаємо, ви досягли рівня 20",
+      "description": "",
+      "icon": {
+        "item": "minecraft:experience_bottle"
+      },
+      "frame": "challenge",
+      "background": "minecraft:textures/block/stone.png",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "criteria": {
+      "reached_level_20": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "parent": "rpg_origins:root"
+  }
+  
