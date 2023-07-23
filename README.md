@@ -1,4 +1,14 @@
-## PlayerEX-Origin-Progression-Datapack
+## PlayerEX-Origins-Progression-Datapack
+
+<p align="center">
+  <img src="https://i.imgur.com/wkThI6p.png" alt="Опис зображення" width="50%">
+</p>
+
+[![SKZGx - rpg_origin](https://img.shields.io/static/v1?label=SKZGx&message=rpg_origin&color=blue&logo=github)](https://github.com/SKZGx/rpg_origin "Go to GitHub repo")
+[![stars - rpg_origin](https://img.shields.io/github/stars/SKZGx/rpg_origin?style=social)](https://github.com/SKZGx/rpg_origin)
+[![forks - rpg_origin](https://img.shields.io/github/forks/SKZGx/rpg_origin?style=social)](https://github.com/SKZGx/rpg_origin)
+
+[![українізований - m4](https://img.shields.io/static/v1?label=Discord&message=українізований_m4&color=blue&logo=discord)](https://discord.gg/RBuQk37xr8)
 
 ### Опис
 Цей датапак розроблено для гри в Minecraft 1.19.2 з використанням модлодеру Fabric 0.14.21 та модів Origins Mod 1.7.1 та PlayerEx 3.5.4+1.19.2. Він додає відслідковування рівня для гравців за допомогою мода PlayerEx, а також нові класи для мода Origin Mod. Прогресія класів відбувається за допомогою збільшення рівня гравців, отриманого завдяки модам PlayerEx та Origin Mod.
