@@ -1,8 +1,8 @@
 {
-    "name": "Quiver",
-    "description": "You always have a quiver to make sure you have back-up arrows. You can put anything in it, but if you die, everything except arrows will be left.",
+    "name": "Сагайдак",
+    "description": "У вас завжди є сагайдак, щоб бути впевненим, що у вас є запасні стріли. Ви можете покласти туди все, що завгодно, але якщо ви помрете, все крім стріл, зникне.",
     "type": "origins:inventory",
-    "title": "Quiver",
+    "title": "Сагайдак",
     "container_type": "hopper",
     "drop_on_death": true,
     "drop_on_death_filter": {

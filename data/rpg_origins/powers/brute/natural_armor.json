@@ -1,0 +1,10 @@
+{
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.armor",
+        "value": 2,
+        "operation": "addition"
+    },
+    "name": "Міцна шкіра",
+    "description": "Після багаточислених тренувань та бійок ви зміцнили шкіру."
+}

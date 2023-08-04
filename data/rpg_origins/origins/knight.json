@@ -1,11 +1,12 @@
 {
     "name": "Лицар",
-    "description": "Ти сильний лицар. Ти звик бути на передовій у бою і завжди готовий до самопожертви.",
+    "description": "Ти сильний воїн. Ти звик бути на передовій у бою і завжди готовий до самопожертви.",
     "powers": [
-        "rpg_origins:durable",
-        "origins:more_exhaustion",
-        "rpg_origins:prepared",
-        "rpg_origins:trained"
+        "rpg_origins:knight/durable",
+        "rpg_origins:knight/prepared",
+        "rpg_origins:knight/trained",
+        "rpg_origins:bundle",
+        "origins:more_exhaustion"
     ],
     "icon": {
         "item": "minecraft:shield"

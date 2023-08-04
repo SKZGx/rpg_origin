@@ -1,0 +1,10 @@
+{
+    "name": "Мішечок",
+"description": "Примітивне, але сховище для ваших предметів.",
+"type": "origins:starting_equipment",
+"stack": {
+    "item": "minecraft:bundle",
+    "amount": 1,
+    "slot": 0
+    }
+}

@@ -2,13 +2,15 @@
     "name": "Невіглас",
     "description": "Ви - важка ударна машина з арсеналом сокир.",
     "powers": [
-        "rpg_origins:no_time_to_rest",
-        "rpg_origins:no_shield",
-        "rpg_origins:strong_arms",
-        "rpg_origins:select_targets_strong",
-        "rpg_origins:strong_arms_break_speed",
-        "rpg_origins:natural_armor",
-        "rpg_origins:select_targets_weak"
+        "rpg_origins:brute/no_time_to_rest",
+        "rpg_origins:brute/select_targets_strong",
+        "rpg_origins:brute/natural_armor",
+        "rpg_origins:brute/select_targets_weak",
+
+        "origins:strong_arms",
+        "origins:strong_arms_break_speed",
+        "origins:no_shield",
+        "rpg_origins:bundle"
     ],
     "icon": {
         "item": "minecraft:iron_axe"

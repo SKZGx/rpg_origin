@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"rpg_origins:dwarf/mining",
+		"rpg_origins:dwarf/short",
+		"rpg_origins:dwarf/mining_two",
+		"rpg_origins:dwarf/health",
+        "rpg_origins:bundle",
+		"rpg_origins:dwarf/wide"
+	],
+	"icon": "minecraft:iron_pickaxe",
+	"impact": 2,
+	"name": "Карлик",
+	"description": "Раса невеликих людей, які живуть у горах, розробляють кузні та шахти. Вони володіють майстерністю гірництва і пристосувалися до печерного способу життя, здатні бачити у темряві печер та знаходити руди, де здається, що їх немає."
+}

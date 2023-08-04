@@ -2,20 +2,22 @@
     "name": "Клірик",
     "description": "Мудрий цілитель, який може загоювати рани і лікувати недуги.",
     "powers": [
-        "rpg_origins:villagefriendly",
-        "rpg_origins:untrained",
-        "rpg_origins:brewer_jumpboost",
-        "rpg_origins:brewer_speed",
-        "rpg_origins:brewer_strength",
-        "rpg_origins:brewer_regeneration",
-        "rpg_origins:heal_pool",
-        "rpg_origins:forgivable",
-        "rpg_origins:pure",
-        "rpg_origins:pure_color",
-        "rpg_origins:pure_shake",
-        "rpg_origins:one_with_the_world",
-        "rpg_origins:healing_master",
-        "rpg_origins:better_heal"
+        "rpg_origins:cleric/villagefriendly",
+        "rpg_origins:cleric/untrained",
+        "rpg_origins:cleric/brewer_jumpboost",
+        "rpg_origins:cleric/brewer_speed",
+        "rpg_origins:cleric/brewer_strength",
+        "rpg_origins:cleric/brewer_regeneration",
+        "rpg_origins:cleric/heal_pool",
+        "rpg_origins:cleric/forgivable",
+        "rpg_origins:cleric/pure",
+        "rpg_origins:cleric/pure_color",
+        "rpg_origins:cleric/pure_shake",
+        "rpg_origins:cleric/one_with_the_world",
+        "rpg_origins:cleric/healing_master",
+        "rpg_origins:cleric/better_heal",
+        
+        "rpg_origins:bundle"
     ],
     "icon": {
         "item": "minecraft:emerald"

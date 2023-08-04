@@ -7,7 +7,9 @@
         "rpg_origins:bard",
         "rpg_origins:thief",
         "rpg_origins:brute",
-        "rpg_origins:paladin"
+        "rpg_origins:paladin",
+        "rpg_origins:dwarf",
+        "rpg_origins:elf"
     ],
     "enabled": true
 }

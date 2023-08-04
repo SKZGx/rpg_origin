@@ -1,12 +1,12 @@
 {
-    "name": "Маг",
-    "description": "Ти маг, який завжди може знайти магію в речах.",
+    "name": "Чаклун",
+    "description": "Ти завжди може знайти магію в звичайних речах і створити щось геніальне.",
     "powers": [
-        "rpg_origins:fastcure",
-        "rpg_origins:untrained",
-        "rpg_origins:fireball",
-        "rpg_origins:water_walk",
-        "rpg_origins:unwieldly"
+        "rpg_origins:mage/fastcure",
+        "rpg_origins:mage/untrained",
+        "rpg_origins:mage/water_walk",
+        "rpg_origins:mage/unwieldly",
+        "rpg_origins:bundle"
     ],
     "icon": {
         "item": "minecraft:enchanted_book"

@@ -1,0 +1,16 @@
+{
+    "name": "Ельф",
+    "description": "Ви сильний і мудрий елітний лучник, ви завжди щось придумаєте як вийти із складної ситуації.",
+    "powers": [
+        "origins:no_shield",
+
+        "rpg_origins:bundle",
+        "rpg_origins:elf/tall",
+        "rpg_origins:elf/tight",
+        "rpg_origins:elf/health"
+    ],
+    "icon": {
+        "item": "mcdw:bow_bubble_bow"
+    },
+    "impact": 3
+}
