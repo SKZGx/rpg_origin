@@ -20,5 +20,6 @@
     "command": "scale set pehkui:width 1.15 @s",
     "permission_level": 4
     },
-    "execute_chosen_when_orb": true
+    "execute_chosen_when_orb": true,
+    "hidden": true
 }

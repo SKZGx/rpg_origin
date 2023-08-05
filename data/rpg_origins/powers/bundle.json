@@ -1,10 +1,10 @@
 {
-    "name": "Мішечок",
-"description": "Примітивне, але сховище для ваших предметів.",
-"type": "origins:starting_equipment",
-"stack": {
-    "item": "minecraft:bundle",
-    "amount": 1,
-    "slot": 0
-    }
+        "name": "Мішечок",
+        "description": "Примітивне, але сховище для ваших предметів.",
+        "type": "origins:action_on_callback",
+        "entity_action_added": {
+        "type": "origins:execute_command",
+        "command": "give @s minecraft:bundle",
+        "permission_level": 4
+        }
 }

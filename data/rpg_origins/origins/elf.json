@@ -1,16 +1,21 @@
 {
     "name": "Ельф",
-    "description": "Ви сильний і мудрий елітний лучник, ви завжди щось придумаєте як вийти із складної ситуації.",
+    "description": "Раса високих і струнких людей, які використовують виключно далекобійну зброю і не вміють користуватись ближньою",
     "powers": [
         "origins:no_shield",
 
         "rpg_origins:bundle",
         "rpg_origins:elf/tall",
         "rpg_origins:elf/tight",
-        "rpg_origins:elf/health"
+        "rpg_origins:elf/health",
+        "rpg_origins:elf/no_sword",
+        "rpg_origins:elf/quiver",        
+        "rpg_origins:elf/archer_hat",
+        "rpg_origins:elf/marksman"
     ],
-    "icon": {
-        "item": "mcdw:bow_bubble_bow"
+    "icon":{
+            "item": "minecraft:bow",
+            "tag": "{Enchantments: [{id: \"minecraft:power\", lvl: 2s}]}"
     },
     "impact": 3
 }

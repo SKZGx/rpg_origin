@@ -1,14 +1,16 @@
 {
     "name": "Лучник",
-    "description": "Ви чудово володієте звичайними луками та арбалетами, але це має свою ціну.",
+    "description": "Схожі на звичайних людей, але чудово володіють звичайними луками та арбалетами.",
     "powers": [
         "rpg_origins:archer/marksman",
         "rpg_origins:archer/untrained",
         "rpg_origins:archer/inexperienced",
         "rpg_origins:archer/resourceful",
         "rpg_origins:archer/quiver",
-
-        "rpg_origins:bundle"
+        "origins:no_shield",
+        "origins:no_sword",
+        "rpg_origins:bundle",
+        "rpg_origins:archer/archer_hat"
     ],
     "icon": {
         "item": "minecraft:bow"
