@@ -1,10 +1,10 @@
 {
-    "name": "Stealthy",
-    "description": "Whenever you crouch, you can't be seen, but you can't attack while you're invisible, and 3 seconds after.",
+    "name": "Невидимка",
+    "description": "Коли ви присідаєте, вас не видно, ну майже, прозорість вашого персонажа 30%.",
     "condition": {
         "type": "origins:sneaking"
     },
-    "type": "origins:invisibility",
-    "render_armor": false,
-    "render_outline": true
+        "type": "origins:model_color",
+        "alpha": 0.3
+    
 }

@@ -1,6 +1,6 @@
 {
-    "name": "Uneasy Alliance",
-    "description": "You and the pillagers have known eachother, but not well enough for them to let you live. Whenever you kill an iron golem in a village, it'll start a raid.",
+    "name": "Непросте життя",
+    "description": "Ви з грабіжниками знаєте один одного, але не настільки добре, щоб вони залишили вас у живих. Щоразу, коли ви вбиваєте залізного голема в селі, через це починається набіг, треба бути трохи обачніше з цим.",
     "type": "origins:self_action_on_kill",
     "target_condition": {
         "type": "origins:entity_type",
