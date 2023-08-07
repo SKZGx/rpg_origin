@@ -1,11 +1,11 @@
 {
-    "name": "Untrained",
-    "description": "You were never tained in combat, so you have 3 less hearts.",
+    "name": "Непідготовлений",
+    "description": "Ви ніколи не були в бою, -3 здоров'я.",
     "type": "origins:attribute",
     "modifier": {
         "attribute": "minecraft:generic.max_health",
-        "operation": "multiply_base",
-        "value": -0.3
+        "operation": "addition",
+        "value": -3
     },
     "update_health": true
 }

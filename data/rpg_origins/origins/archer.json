@@ -4,13 +4,12 @@
     "powers": [
         "rpg_origins:archer/marksman",
         "rpg_origins:archer/untrained",
-        "rpg_origins:archer/inexperienced",
         "rpg_origins:archer/resourceful",
         "rpg_origins:archer/quiver",
         "origins:no_shield",
-        "origins:no_sword",
-        "rpg_origins:bundle",
-        "rpg_origins:archer/archer_hat"
+        "rpg_origins:archer/no_sword",
+        "rpg_origins:archer/no_sword_percentage",
+        "rpg_origins:archer/starter"
     ],
     "icon": {
         "item": "minecraft:bow"

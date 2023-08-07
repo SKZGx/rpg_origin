@@ -1,11 +1,11 @@
 {
     "name": "Тільки не підходь",
-    "description": "Ви не вмієте користуватись мечами, надаєте перевагу лише дальньому бою, -5 до шкоди ближнього бою",
+    "description": "Ви не вмієте користуватись мечами, надаєте перевагу лише дальньому бою, -3+10% до шкоди ближнього бою",
     "type": "origins:attribute",
     "modifier": {
         "attribute": "minecraft:generic.attack_damage",
         "operation": "addition",
-        "value": -5
+        "value": -3
     },
     "update_health": true
 }

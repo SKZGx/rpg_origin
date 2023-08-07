@@ -4,14 +4,14 @@
     "powers": [
         "origins:no_shield",
 
-        "rpg_origins:bundle",
         "rpg_origins:elf/tall",
         "rpg_origins:elf/tight",
         "rpg_origins:elf/health",
         "rpg_origins:elf/no_sword",
         "rpg_origins:elf/quiver",        
-        "rpg_origins:elf/archer_hat",
-        "rpg_origins:elf/marksman"
+        "rpg_origins:elf/starter",
+        "rpg_origins:elf/marksman",
+        "rpg_origins:elf/no_sword_percentage"
     ],
     "icon":{
             "item": "minecraft:bow",

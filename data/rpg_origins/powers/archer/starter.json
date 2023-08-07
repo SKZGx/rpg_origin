@@ -1,0 +1,32 @@
+
+{
+    "name": "Початківець",
+    "description": "Боги надали вам предмети, які вам можуть знадобитись в нелегкому шляху.",
+    "type": "origins:starting_equipment",
+    "stack": {
+        "item": "minecraft:bow",
+        "amount": 1
+    },
+    "stacks": [
+        {
+            "item": "minecraft:leather_chestplate",
+            "amount": 1
+        },
+        {
+            "item": "minecraft:leather_boots",
+            "amount": 1
+        },
+        {
+            "item": "minecraft:arrow",
+            "amount": 64
+        },
+        {
+            "item": "minecraft:bundle", 
+            "amount": 1
+        },
+        {
+            "item": "villager-hats:fletcher_hat", 
+            "amount": 1
+        }
+    ]
+}
