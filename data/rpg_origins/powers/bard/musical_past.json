@@ -1,11 +1,10 @@
 {
-    "name": "Musical Past",
-    "description": "You've played goat horns in the past, and you still have one from a while ago.",
+    "name": "Музичне минуле",
+    "description": "Ви трохи знаєтесь на музиці й у вас все ще є стара добра лютня.",
     "type": "origins:starting_equipment",
     "stack": {
-        "item": "minecraft:goat_horn",
+        "item": "bard_instruments:lute",
         "amount": 1,
-        "tag": "{instrument: \"minecraft:ponder_goat_horn\"}",
         "slot": 0
     }
 }

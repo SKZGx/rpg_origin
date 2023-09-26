@@ -1,7 +1,7 @@
 {
     "name": "Yearn",
     "description": "Wait, you shouldn't see this! It seems like you're snooping around, I hope you find what you're looking for.",
-    "hidden": true,
+    "hidden": false,
     "condition": {
         "type": "origins:using_item",
         "item_condition": {

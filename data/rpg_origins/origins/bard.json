@@ -2,6 +2,7 @@
     "name": "Бард",
     "description": "Універсальні музичні гравці. Вони використовують свої музичні здібності, щоб допомогти будь-кому.",
     "powers": [
+        "rpg_origins:bard/admire",
         "rpg_origins:bard/ponder",
         "rpg_origins:bard/sing",
         "rpg_origins:bard/feel",
@@ -9,7 +10,6 @@
         "rpg_origins:bard/call",
         "rpg_origins:bard/dream",
         "rpg_origins:bard/seek",
-        "rpg_origins:bard/yearn",
         "rpg_origins:bard/musical_talent",
         "rpg_origins:bard/musical_past",
         "rpg_origins:bard/decoy",
@@ -22,7 +22,7 @@
         "rpg_origins:bundle"
     ],
     "icon": {
-        "item": "minecraft:goat_horn"
+        "item": "bard_instruments:lute"
     },
     "impact": 2
 }

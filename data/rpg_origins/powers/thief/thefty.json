@@ -11,8 +11,7 @@
         "stack": {
             "item": "minecraft:emerald",
             "amount": 3
-        },
-        "preferred_slot": "offhand"
+        }
     },
     "cooldown": 1500,
     "hud_render": {
