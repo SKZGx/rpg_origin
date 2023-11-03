@@ -1,0 +1,10 @@
+{
+    "name": "Лицар смерті",
+    "description": "",
+    "powers": [
+    ],
+    "icon": {
+        "item": "bewitchment:death_protection_poppet"
+    },
+    "impact": 2
+}

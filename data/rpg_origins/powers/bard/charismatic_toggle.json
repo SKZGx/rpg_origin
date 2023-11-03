@@ -1,6 +1,6 @@
 {
-    "name": "Charismatic",
-    "description": "You're great with people, so much infact, that they heal more and move faster when around you.",
+    "name": "Харизма",
+    "description": "Ви чудово ладнаєте з людьми, настільки, що вони одужують і рухаються швидше, коли знаходяться поруч з вами.",
     "type": "origins:toggle",
     "active_by_default": true,
     "key": {

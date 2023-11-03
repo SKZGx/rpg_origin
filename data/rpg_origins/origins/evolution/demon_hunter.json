@@ -1,0 +1,10 @@
+{
+    "name": "Мисливець на демонів",
+    "description": "",
+    "powers": [
+    ],
+    "icon": {
+        "item": "bewitchment:demon_heart"
+    },
+    "impact": 2
+}

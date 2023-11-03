@@ -1,0 +1,10 @@
+{
+    "name": "Розбійник",
+    "description": "",
+    "powers": [
+    ],
+    "icon": {
+        "item": "mcdw:axe_axe"
+    },
+    "impact": 2
+}

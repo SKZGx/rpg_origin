@@ -7,9 +7,16 @@
         "rpg_origins:bard",
         "rpg_origins:thief",
         "rpg_origins:brute",
-        "rpg_origins:paladin",
         "rpg_origins:dwarf",
-        "rpg_origins:elf"
+        "rpg_origins:elf",
+        "rpg_origins:evolution/shaman",
+        "rpg_origins:evolution/sorcerer",
+        "rpg_origins:evolution/shadow_archer",
+        "rpg_origins:evolution/robber",
+        "rpg_origins:evolution/paladin",
+        "rpg_origins:evolution/knight_of_death",
+        "rpg_origins:evolution/demon_hunter",
+        "rpg_origins:evolution/blood_elf"
     ],
     "enabled": true
 }

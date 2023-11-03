@@ -1,0 +1,10 @@
+{
+    "name": "Шаман",
+    "description": "",
+    "powers": [
+    ],
+    "icon": {
+        "item": "bard_instruments:shaman_drum"
+    },
+    "impact": 2
+}

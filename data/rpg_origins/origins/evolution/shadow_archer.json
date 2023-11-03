@@ -1,0 +1,10 @@
+{
+    "name": "Тіньовий лучник",
+    "description": "",
+    "powers": [
+    ],
+    "icon": {
+        "item": "mcdw:bow_haunted_bow"
+    },
+    "impact": 2
+}

@@ -1,0 +1,10 @@
+{
+    "name": "Карлик-відьмак",
+    "description": "",
+    "powers": [
+    ],
+    "icon": {
+        "item": "bewitchment:hedgewitch_hat"
+    },
+    "impact": 2
+}

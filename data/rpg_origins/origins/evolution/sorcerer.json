@@ -1,0 +1,10 @@
+{
+    "name": "Волхви",
+    "description": "",
+    "powers": [
+    ],
+    "icon": {
+        "item": "wizards:wand_arcane"
+    },
+    "impact": 2
+}

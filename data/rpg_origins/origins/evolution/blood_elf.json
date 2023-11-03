@@ -1,0 +1,10 @@
+{
+    "name": "Кровавий ельф",
+    "description": "",
+    "powers": [
+    ],
+    "icon": {
+        "item": "spectrum:bloodboil_syrup"
+    },
+    "impact": 2
+}
