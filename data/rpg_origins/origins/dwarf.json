@@ -6,6 +6,8 @@
 		"rpg_origins:dwarf/health",
 		"rpg_origins:dwarf/wide",
 		"rpg_origins:dwarf/step_height",
+
+		"rpg_origins:min6hp",
         "rpg_origins:bundle"
 	],
 	"icon": "minecraft:iron_pickaxe",

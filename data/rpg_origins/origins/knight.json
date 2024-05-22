@@ -6,7 +6,10 @@
         "rpg_origins:knight/prepared",
         "rpg_origins:knight/trained",
         "rpg_origins:bundle",
-        "origins:more_exhaustion"
+        "origins:more_exhaustion",
+
+        "rpg_origins:min6hp",
+        "rpg_origins:bundle"
     ],
     "icon": {
         "item": "minecraft:shield"

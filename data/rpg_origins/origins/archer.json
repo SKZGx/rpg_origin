@@ -2,14 +2,18 @@
     "name": "Лучник",
     "description": "Схожі на звичайних людей, але чудово володіють звичайними луками та арбалетами.",
     "powers": [
+        "origins:no_shield",
+
         "rpg_origins:archer/marksman",
         "rpg_origins:archer/untrained",
         "rpg_origins:archer/resourceful",
         "rpg_origins:archer/quiver",
-        "origins:no_shield",
         "rpg_origins:archer/no_sword",
         "rpg_origins:archer/no_sword_percentage",
-        "rpg_origins:archer/starter"
+        "rpg_origins:archer/starter",
+
+        "rpg_origins:min6hp",
+        "rpg_origins:bundle"
     ],
     "icon": {
         "item": "minecraft:bow"

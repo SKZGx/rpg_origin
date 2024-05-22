@@ -1,0 +1,36 @@
+
+{
+    "name": "Мішочок",
+    "description": "У вас з собою є трохи припасів, що можуть бути корисними.",
+    "type": "origins:starting_equipment",
+    "stacks": [
+        {
+            "item": "minecraft:leather_chestplate",
+            "amount": 1
+        },
+        {
+            "item": "minecraft:leather_boots",
+            "amount": 1
+        },
+        {
+            "item": "minecraft:bundle", 
+            "amount": 1
+        },
+        {
+            "item": "minecraft:campfire",
+            "amount": 1
+        },
+        {
+            "item": "minecraft:flint_and_steel",
+            "amount": 1
+        },
+        {
+            "item": "numismatic-overhaul:bronze_coin",
+            "amount": 5
+        },
+        {
+            "item": "numismatic-overhaul:silver_coin",
+            "amount": 1
+        }
+    ]
+}

@@ -10,6 +10,7 @@
         "rpg_origins:thief/thefty",
         "rpg_origins:thief/weak",
 
+        "rpg_origins:min6hp",
         "rpg_origins:bundle"
     ],
     "icon": {

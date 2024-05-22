@@ -19,6 +19,8 @@
         "rpg_origins:charismatic_toggle",
         "rpg_origins:charismatic_switch_effect",
         "rpg_origins:charismatic_hunger",
+
+        "rpg_origins:min6hp",
         "rpg_origins:bundle"
     ],
     "icon": {

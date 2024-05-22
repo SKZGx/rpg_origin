@@ -11,7 +11,10 @@
         "rpg_origins:elf/quiver",        
         "rpg_origins:elf/starter",
         "rpg_origins:elf/marksman",
-        "rpg_origins:elf/no_sword_percentage"
+        "rpg_origins:elf/no_sword_percentage",
+
+        "rpg_origins:min6hp",
+        "rpg_origins:bundle"
     ],
     "icon":{
             "item": "minecraft:bow",

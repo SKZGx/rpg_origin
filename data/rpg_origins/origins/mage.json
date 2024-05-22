@@ -6,6 +6,8 @@
         "rpg_origins:mage/untrained",
         "rpg_origins:mage/water_walk",
         "rpg_origins:mage/unwieldly",
+
+        "rpg_origins:min6hp",
         "rpg_origins:bundle"
     ],
     "icon": {

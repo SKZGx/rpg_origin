@@ -17,6 +17,7 @@
         "rpg_origins:cleric/healing_master",
         "rpg_origins:cleric/better_heal",
         
+        "rpg_origins:min6hp",
         "rpg_origins:bundle"
     ],
     "icon": {
