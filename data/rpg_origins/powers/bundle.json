@@ -5,7 +5,7 @@
     "type": "origins:starting_equipment",
     "stacks": [
         {
-            "item": "minecraft:leather_chestplate",
+            "item": "endermanoverhaul:badlands_hood",
             "amount": 1
         },
         {
@@ -22,7 +22,8 @@
         },
         {
             "item": "minecraft:flint_and_steel",
-            "amount": 1
+            "amount": 1,
+            "durability": 30
         },
         {
             "item": "numismatic-overhaul:bronze_coin",

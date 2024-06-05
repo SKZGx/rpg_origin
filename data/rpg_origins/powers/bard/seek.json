@@ -8,7 +8,7 @@
         "item_condition": {
             "type": "origins:ingredient",
             "ingredient": {
-                "item": "bard_instruments:lute"
+                "item": "bard_instruments:violin"
             }
         }
     },
