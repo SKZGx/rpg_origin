@@ -1,14 +1,14 @@
 {
-    "name": "Feel",
-    "description": "Wait, you shouldn't see this! It seems like you're snooping around, I hope you find what you're looking for.",
-    "hidden": true,
+    "name": "Почуття",
+    "description": "Твоє чутливе серце випромінює тепло і турботу. Завдяки твоєму дару почуттів, союзники поруч отримують регенерацію, відчуваючи себе відновленими і захищеними.",
+    "hidden": false,
     "condition": {
         "type": "origins:equipped_item",
         "equipment_slot": "mainhand",
         "item_condition": {
             "type": "origins:ingredient",
             "ingredient": {
-                "item": "bard_instruments:violin"
+                "item": "bard_instruments:flute"
             }
         }
     },

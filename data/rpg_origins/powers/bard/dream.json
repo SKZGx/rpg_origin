@@ -1,12 +1,15 @@
 {
-    "name": "Dream",
-    "description": "Wait, you shouldn't see this! It seems like you're snooping around, I hope you find what you're looking for.",
+    "name": "Мрія",
+    "description": "Твоя мрія проявляється як магічне прозорість, що обгортає всіх оточуючих. Під цією впливом всі навколо набувають нічного бачення, дозволяючи їм бачити у темряві так, як у світлі дня.",
     "hidden": true,
     "condition": {
-        "type": "origins:using_item",
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
         "item_condition": {
-            "type": "origins:nbt",
-            "nbt": "{instrument: \"minecraft:dream_goat_horn\"}"
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "bard_instruments:harmonica"
+            }
         }
     },
     "type": "origins:active_self",

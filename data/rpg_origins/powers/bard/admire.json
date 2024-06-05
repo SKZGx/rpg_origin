@@ -1,12 +1,15 @@
 {
-    "name": "Admire",
-    "description": "Wait, you shouldn't see this! It seems like you're snooping around, I hope you find what you're looking for.",
-    "hidden": true,
+    "name": "Захоплення",
+    "description": "Твоє захоплення окутує всіх навколо магічною пеленою, надаючи їм невидимість. Під цим покровом ваші дії залишаються непоміченими ворогами.",
+    "hidden": false,
     "condition": {
-        "type": "origins:using_item",
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
         "item_condition": {
-            "type": "origins:nbt",
-            "nbt": "{instrument: \"minecraft:admire_goat_horn\"}"
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "bard_instruments:lyre"
+            }
         }
     },
     "type": "origins:active_self",

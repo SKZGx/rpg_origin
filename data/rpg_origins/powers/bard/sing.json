@@ -1,12 +1,15 @@
 {
-    "name": "sing",
-    "description": "Wait, you shouldn't see this! It seems like you're snooping around, I hope you find what you're looking for.",
-    "hidden": true,
+    "name": "Спів",
+    "description": "Схоже, ви знайшли свій ритм, і тепер ваш спів надає вам неймовірну швидкість. Вперед, пташко, час летіти!",
+    "hidden": false,
     "condition": {
-        "type": "origins:using_item",
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
         "item_condition": {
-            "type": "origins:nbt",
-            "nbt": "{instrument: \"minecraft:sing_goat_horn\"}"
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "bard_instruments:bandoneon"
+            }
         }
     },
     "type": "origins:active_self",

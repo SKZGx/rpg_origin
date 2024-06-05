@@ -1,7 +1,7 @@
 {
-    "name": "Seek",
-    "description": "Wait, you shouldn't see this! It seems like you're snooping around, I hope you find what you're looking for.",
-    "hidden": true,
+    "name": "Пошук",
+    "description": "Зачекайте, ви не повинні цього бачити! Виглядає так, ніби ви щось винюхуєте, сподіваюся, ви знайдете те, що шукаєте.",
+    "hidden": false,
     "condition": {
         "type": "origins:equipped_item",
         "equipment_slot": "mainhand",

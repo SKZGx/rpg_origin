@@ -1,6 +1,6 @@
 {
-    "name": "Decoy",
-    "description": "Many people have used you as their decoy, so you've adapted to run faster whenever you're weak.",
+    "name": "Приманка",
+    "description": "Багато людей використовували тебе як приманку, тому ти пристосувався бігти швидше, коли слабшаєш.",
     "condition": {
         "type": "origins:health",
         "comparison": "<=",
